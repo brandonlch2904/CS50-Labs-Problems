@@ -1,0 +1,17 @@
+sort1 uses: bubble sort
+
+How do you know?:
+1. When sorting a sorted file, it takes significantly less time compared to sort3 which shows that sorting a sorted file might be the big Omega for sort1
+
+sort2 uses: merge sort
+
+How do you know?:
+1. Always have the shortest output time compared to sort1 and sort3
+2. The difference of time taken to sort different files are very small
+3. Shows high consistency output time when sorting different scenarios (random,reversed,sorted)
+
+sort3 uses: selection sort
+
+How do you know?:
+1. Shows high consistency output time when sorting different scenarios (random,reversed,sorted)
+2. Output time is always more than sort2
